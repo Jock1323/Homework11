@@ -1,0 +1,343 @@
+/* Fonts */
+@font-face {
+    font-family: 'Recoleta Alt';
+    src: url('../fonts/RecoletaAlt-SemiBold.woff2') format('woff2'),
+        url('../fonts/RecoletaAlt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/NotoSans.woff2') format('woff2'),
+        url('../fonts/NotoSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header{
+    background-color: #163A24;
+    padding-top: 20px;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list__item{
+    display: inline-block;
+    margin-left: 24px;
+}
+.list__item--link{
+    font: 400 16px/22px 'Noto Sans';
+    text-decoration: none;
+    color: #FBFAF7;
+}
+.button{
+    padding: 15px 25px;
+    background-color: #198C36;
+    border-radius: 160px;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.header__info{
+    margin-top: 120px;
+}
+.header__title{
+    font: 600 48px/65px 'Recoleta Alt';
+    width: 399px;
+    color:#FBFAF7;
+}
+.header__text{
+    font: 400 18px/27px 'Noto Sans';
+    width: 475px;
+    color:#FBFAF7;
+    margin-top: 18px;
+}
+/* /Header */
+
+/* Hero */
+.hero{
+    padding-top: 130px;
+}
+.hero__card{
+    display: flex;
+    justify-content:space-evenly;
+}
+.hero__card--info{
+    margin-top: 149px;
+    color: #163A24;
+}
+.hero__card--title{
+    font: 600 48px/54px 'Recoleta Alt';
+    width: 326px;
+}
+.hero__card--text{
+    margin-top: 27px;
+    width: 374px;
+    color: #163A24;
+}
+.reversed{
+    flex-direction: row-reverse;
+}
+.liquid{
+    margin-top: 105px;
+} 
+.hero__title--2{
+    width: 385px;
+}
+/*/ Hero */
+
+/* Partners */
+.partners{
+    padding:119px 0 125px 0;
+}
+.partners__title{
+    width: 100%;
+    text-align: center;
+    color: #163A24;
+}
+.partners__logo{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 64px;
+    padding:0 43px;
+    align-items: center;
+}
+/* /Partners */
+ 
+/* Productions */
+.productions{
+    padding: 66px 0 139px 0;
+    background-color:#163A24;
+}
+.productions__title{
+    color: #FBFAF7;
+}
+.productions__cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+
+}
+.productions__card{
+    text-align: center;
+}
+.productions__card--text{
+    width: 198px;
+    color: #FBFAF7;
+}
+.productions__card--text2{
+    margin-top: 0;
+}
+/*/ Productions */
+
+/* Employees */
+.employees{
+    background-color: #F2EFE6;
+    padding: 114px 0 120px 0; 
+}
+.employees__info{
+    text-align: center;
+    width:760px;
+    margin: 0 auto;
+}
+.employees__title{
+    width: 739px;
+}
+.employees__text{
+    width: 760px;
+}
+/*/ Employess */
+
+/* Fit together */
+.fit{
+    background-color: #fff;
+    padding: 180px 0 120px 0;
+}
+.fit__card{
+    margin-top:94px;
+}
+.fit__title{
+    width: 342px;
+    margin-top: 0;
+}
+/* /Fit together */
+
+/* Interest cards */
+.interests{
+   background-color: #fff;
+   padding-bottom: 120px;
+}
+.interests__cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.interests__card{
+    width: 353px;
+    height: 393px;
+    padding: 50px 40px 66px 40px;
+    background-color:#FBFAF7;
+    box-shadow: 5px 5px 20px #E9E4D5;
+    border-radius: 15px;
+}
+.changiable__card{
+    padding: 50px 12px 66px 40px;
+}
+.interests .change{
+    height: 430px;
+}
+.interests__card--title{
+    font: 600 28px/32px 'Recoleta Alt';
+    margin-top: 20px;
+}
+.interests__list{
+    margin-top: 23px;
+}
+.interests__list--item{
+    font: 400 16px/22px 'Noto Sans';
+    width: 224px;
+    color:#163A24;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.interests__cards .liquid{
+    margin-top: 0;
+}
+
+
+/* /Interest cards */
+
+/* Help */
+.help{
+    padding: 114px 0 124px 0;
+    background-color: #F2EFE6;
+}
+.help__cards{
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+}
+.help__card{
+    text-align: center;
+}
+.help__text{
+    margin: 0;
+    width: 260px;
+}
+.help__title{
+    margin: 0;
+    margin-top: 13px;
+    color: #163A24;
+
+}
+.help__card .liquid{
+    margin: 0;
+    width: 249px;
+}
+.arrow__down{
+    margin: 0 35px 0 29px;
+}
+.arrow__up{
+    margin: 0 79px 0 35px;
+}
+.help__btn{
+    text-align: center;
+    margin-top: 6px;
+}
+/* /Help */
+
+/* Resourses */
+.resourses{
+    padding:119px 0;
+}
+.resourses .liquid{
+    margin-top: 136px;
+}
+.resourses__title{
+    width: 360px;
+}
+.resourses__text{
+    margin-top: 25px;
+}
+.resourses__btn{
+    display: inline-block;
+    margin-top: 19px;
+}
+/* /Resourses */
+
+/* Get Started */
+.start{
+    position: relative;
+    padding: 114px 0 124px 0;
+    background-color: #163A24;
+}
+.start__title,
+.start__text{
+    color: #FBFAF7;
+}
+.start__btn .button{
+    display: inline-block;
+    margin-top: 18px;
+    background-color: #FAB5A0;
+    color:#163A24;
+    font-weight: 600;
+}
+.leaf__1,
+.leaf__2{
+    position: absolute;
+    top:26px;
+}
+.leaf__1{
+    left: 0;
+}
+.leaf__2{
+    right: 0;
+}
+
+/* /Get Started */
+
+/* Footer */
+.footer{
+    padding: 40px 0 20px 0;
+}
+.footer__title{
+    font: 600 24px/36px 'Recoleta Alt';
+    color:#163A24;
+}
+.footer .list__item{
+    margin-left:14px;
+}
+.footer .list__item--link{
+    color: #198C36;
+    font: 400 14px/19px 'Noto Sans';
+}
+.line{
+    width: 100%;
+    height: 1px;
+    margin: 41px 0 24px 0;
+    background-color: #F2EFE6;
+}
+.footer__text{
+    font: 400 14px/21px 'Noto Sans';
+    color:#163A24;
+}
+
+/* /Footer */
